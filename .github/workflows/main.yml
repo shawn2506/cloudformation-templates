@@ -22,8 +22,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       TEMPLATE_LOCATION: ./Ch04 - Best Practices/L05 - Template Storage and Revisions
-      DEPLOY_BUCKET: acg-deploy-bucket
-      AWS_DEFAULT_REGION: us-east-1
+      DEPLOY_BUCKET: aws-devops-course-shonry
+      AWS_DEFAULT_REGION: us-west-2
       AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
       AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
     steps:
